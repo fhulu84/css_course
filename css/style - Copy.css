@@ -1,0 +1,68 @@
+h2:hover {
+	color: red;
+}
+
+h2[class=subtitle] {
+	color: blue;
+}
+
+.subtitle {
+	color: blue;
+}
+
+#services {
+	color: green;
+}
+
+/*li:only-child {
+	color: purple;
+}*/
+
+td:only-child {
+	color: blue;
+}
+
+#google-link:link {
+	color: blue;
+}
+
+#google-link:visited {
+	color: red;
+}
+
+h2 + a {
+	color: red;
+}
+
+textarea ~ button {
+	color: purple;
+}
+
+ul > li {
+	color: blue;
+}
+
+ul li {
+	color: green;
+}
+
+img[src^="../img/"] {
+	border: 10px solid black;
+}
+
+img[src$="2.jpg"] {
+	border: 5px solid green;
+}
+
+img[src*="-1"] {
+	border: 5px solid purple;
+}
+
+h2[class~=article-subtitle] {
+	background: green;
+}
+
+h2[class|=subtitle-01] {
+	background: yellow;
+}
+

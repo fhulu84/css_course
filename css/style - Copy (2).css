@@ -1,0 +1,22 @@
+body {
+	background: rgb(204, 231, 240);
+}
+
+#title {
+	color: rgb(186, 130, 58);
+}
+
+.subtitle {
+	color: rgb(212, 162, 44);
+}
+
+#service-image {
+	height: 400px;
+	width: 70%;
+
+	background: url("../img/img-2.jpg");
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	background-color: steelblue;
+}
+
